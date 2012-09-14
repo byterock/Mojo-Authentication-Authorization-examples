@@ -1,0 +1,15 @@
+% layout 'default';
+% title 'Welcome';
+
+Welcome to Authorization
+
+<form action="/login" method="post">
+<table>
+<tr> <td> User </td> <td> <input type="text" name="id" /> </td> </tr>
+<tr> <td> Password </td> <td> <input type="password" name="pw" /> <input type="hidden" name="slug" value="yes"></td> </tr>
+</table>
+
+<input type="submit" name="mysubmit" value="Click!" />
+
+</form>
+

@@ -1,0 +1,11 @@
+% layout 'default';
+% title 'Slug King';
+
+<BR>
+<H1><BLINK>All glory to the Hypnotoad!</BLINK></H1>
+<BR>
+<img src='/hypnotoad.gif'/>
+<BR>
+<BR>
+Click <a href="/logout" >here</A> to log out!
+

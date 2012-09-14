@@ -1,0 +1,922 @@
+[Mon Jul 23 06:57:16 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 06:57:34 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 06:57:34 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 06:57:34 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 06:57:34 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 06:57:34 2012] [debug] Rendering inline template.
+[Mon Jul 23 06:57:34 2012] [debug] 404 Not Found (0.021143s, 47.297/s).
+[Mon Jul 23 06:57:39 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 06:57:39 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 06:57:39 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 06:57:39 2012] [debug] 404 Not Found (0.007666s, 130.446/s).
+[Mon Jul 23 06:57:46 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 06:57:46 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 06:57:46 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 06:57:46 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 06:57:46 2012] [debug] 200 OK (0.265038s, 3.773/s).
+[Mon Jul 23 06:57:55 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 06:57:55 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 06:57:55 2012] [debug] 200 OK (0.002248s, 444.840/s).
+[Mon Jul 23 06:57:58 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 06:57:58 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 06:57:58 2012] [debug] 200 OK (0.003456s, 289.352/s).
+[Mon Jul 23 08:10:55 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:11:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:11:16 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:16 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:11:16 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:11:16 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 08:11:16 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 08:11:16 2012] [debug] 200 OK (0.249168s, 4.013/s).
+[Mon Jul 23 08:11:24 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:24 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:11:24 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:11:24 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:11:24 2012] [debug] Rendering inline template.
+[Mon Jul 23 08:11:25 2012] [debug] 404 Not Found (0.020053s, 49.868/s).
+[Mon Jul 23 08:11:29 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:29 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:11:29 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:11:29 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:11:29 2012] [debug] 404 Not Found (0.008132s, 122.971/s).
+[Mon Jul 23 08:11:35 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:35 2012] [debug] GET /hello (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:11:35 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:11:35 2012] [debug] 200 OK (0.001646s, 607.533/s).
+[Mon Jul 23 08:11:40 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:40 2012] [debug] GET /test (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:11:40 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:11:40 2012] [debug] 200 OK (0.002105s, 475.059/s).
+[Mon Jul 23 08:11:48 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:48 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:11:48 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 08:11:48 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 08:11:48 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 08:11:48 2012] [debug] 200 OK (0.014074s, 71.053/s).
+[Mon Jul 23 08:11:52 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:54 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:54 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:11:54 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 08:11:54 2012] [debug] 200 OK (0.002139s, 467.508/s).
+[Mon Jul 23 08:11:58 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:11:58 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:11:58 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:11:58 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:11:58 2012] [debug] 404 Not Found (0.014725s, 67.912/s).
+[Mon Jul 23 08:12:44 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:12:44 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:12:44 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:12:44 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:12:44 2012] [debug] 404 Not Found (0.008780s, 113.895/s).
+[Mon Jul 23 08:12:54 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:12:54 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:12:54 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:12:54 2012] [debug] 200 OK (0.002100s, 476.190/s).
+[Mon Jul 23 08:26:01 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:26:01 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:26:01 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 08:26:01 2012] [debug] 200 OK (0.002446s, 408.831/s).
+[Mon Jul 23 08:26:06 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:26:06 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:26:06 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:26:06 2012] [debug] 200 OK (0.004492s, 222.618/s).
+[Mon Jul 23 08:26:14 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:26:15 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:26:15 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:26:15 2012] [debug] 200 OK (0.002529s, 395.413/s).
+[Mon Jul 23 08:27:27 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:27:27 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:27:27 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:27:27 2012] [debug] 200 OK (0.002745s, 364.299/s).
+[Mon Jul 23 08:27:51 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:28:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:28:01 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:28:01 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:28:01 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:28:01 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 08:28:01 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 08:28:01 2012] [debug] 200 OK (0.058378s, 17.130/s).
+[Mon Jul 23 08:32:40 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:32:40 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:32:40 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:32:40 2012] [debug] 200 OK (0.001970s, 507.614/s).
+[Mon Jul 23 08:35:32 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:35:43 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:35:43 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:35:43 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:35:43 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:35:43 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 08:35:45 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 08:35:45 2012] [debug] 200 OK (1.767657s, 0.566/s).
+[Mon Jul 23 08:35:49 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:35:49 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:35:49 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:35:49 2012] [debug] 200 OK (0.001884s, 530.786/s).
+[Mon Jul 23 08:35:51 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:35:51 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:35:51 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:35:51 2012] [debug] 200 OK (0.001962s, 509.684/s).
+[Mon Jul 23 08:35:51 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:35:51 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:35:51 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:35:51 2012] [debug] 200 OK (0.002348s, 425.894/s).
+[Mon Jul 23 08:35:52 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:35:52 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:35:52 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:35:52 2012] [debug] 200 OK (0.002596s, 385.208/s).
+[Mon Jul 23 08:35:53 2012] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Jul 23 08:35:53 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:35:53 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:35:53 2012] [debug] 200 OK (0.003262s, 306.560/s).
+[Mon Jul 23 08:36:30 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:36:30 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:36:30 2012] [debug] 200 OK (0.001868s, 535.332/s).
+[Mon Jul 23 08:36:31 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:36:31 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:36:31 2012] [debug] 200 OK (0.001924s, 519.751/s).
+[Mon Jul 23 08:36:32 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:36:32 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:36:32 2012] [debug] 200 OK (0.002131s, 469.263/s).
+[Mon Jul 23 08:36:32 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:36:32 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:36:32 2012] [debug] 200 OK (0.002730s, 366.300/s).
+[Mon Jul 23 08:36:33 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:36:33 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:36:33 2012] [debug] 200 OK (0.002032s, 492.126/s).
+[Mon Jul 23 08:37:09 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:37:09 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:37:09 2012] [debug] 200 OK (0.002085s, 479.616/s).
+[Mon Jul 23 08:37:10 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:37:10 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:37:10 2012] [debug] 200 OK (0.002096s, 477.099/s).
+[Mon Jul 23 08:37:10 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:37:10 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:37:10 2012] [debug] 200 OK (0.003132s, 319.285/s).
+[Mon Jul 23 08:37:11 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:37:11 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:37:11 2012] [debug] 200 OK (0.002228s, 448.833/s).
+[Mon Jul 23 08:37:11 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:37:11 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:37:11 2012] [debug] 200 OK (0.002469s, 405.022/s).
+[Mon Jul 23 08:37:12 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:37:12 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:37:12 2012] [debug] 200 OK (0.002554s, 391.543/s).
+[Mon Jul 23 08:37:20 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:37:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:37:28 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:37:28 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:37:28 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:37:28 2012] [debug] Rendering inline template.
+[Mon Jul 23 08:37:28 2012] [debug] 404 Not Found (0.031704s, 31.542/s).
+[Mon Jul 23 08:37:58 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:38:07 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:38:07 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:38:07 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 08:38:07 2012] [debug] 302 Found (0.006405s, 156.128/s).
+[Mon Jul 23 08:38:07 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:38:07 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:38:07 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:38:07 2012] [debug] Rendering inline template.
+[Mon Jul 23 08:38:07 2012] [debug] 404 Not Found (0.026899s, 37.176/s).
+[Mon Jul 23 08:39:47 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:39:59 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:39:59 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:39:59 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 08:39:59 2012] [debug] 302 Found (0.004650s, 215.054/s).
+[Mon Jul 23 08:39:59 2012] [debug] GET /example_home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:39:59 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:39:59 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:39:59 2012] [debug] Rendering inline template.
+[Mon Jul 23 08:39:59 2012] [debug] 404 Not Found (0.022899s, 43.670/s).
+[Mon Jul 23 08:41:13 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:41:13 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:41:13 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:41:13 2012] [debug] 404 Not Found (0.007195s, 138.985/s).
+[Mon Jul 23 08:42:03 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:42:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:42:16 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:42:16 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 08:42:16 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 08:42:16 2012] [debug] Rendering inline template.
+[Mon Jul 23 08:42:16 2012] [debug] 404 Not Found (0.030817s, 32.450/s).
+[Mon Jul 23 08:42:21 2012] [debug] GET /ddd (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:42:21 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:42:21 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 08:42:21 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 08:42:21 2012] [debug] 200 OK (0.075856s, 13.183/s).
+[Mon Jul 23 08:42:29 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:42:29 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 08:42:29 2012] [debug] 302 Found (0.002200s, 454.545/s).
+[Mon Jul 23 08:42:29 2012] [debug] GET /example_home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:42:29 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:42:29 2012] [debug] 200 OK (0.002459s, 406.669/s).
+[Mon Jul 23 08:44:23 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:44:34 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:44:34 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:44:34 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 08:44:34 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 08:44:34 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 08:44:34 2012] [debug] 200 OK (0.059604s, 16.777/s).
+[Mon Jul 23 08:44:39 2012] [debug] GET /dogshow (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:44:39 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:44:39 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 08:44:39 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 08:44:39 2012] [debug] 200 OK (0.017214s, 58.092/s).
+[Mon Jul 23 08:44:46 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:44:46 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 08:44:46 2012] [debug] 302 Found (0.017190s, 58.173/s).
+[Mon Jul 23 08:44:46 2012] [debug] GET /example%23home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:44:46 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:44:46 2012] [debug] 200 OK (0.002494s, 400.962/s).
+[Mon Jul 23 08:45:20 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:45:20 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 08:45:20 2012] [debug] 302 Found (0.018781s, 53.245/s).
+[Mon Jul 23 08:45:21 2012] [debug] GET /example%23home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:45:21 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:45:21 2012] [debug] 200 OK (0.002912s, 343.407/s).
+[Mon Jul 23 08:45:31 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:45:36 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:45:36 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:45:36 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 08:45:36 2012] [debug] Template "example#home.html.ep" not found.
+[Mon Jul 23 08:45:36 2012] [debug] Template "authn/login.html.ep" not found.
+[Mon Jul 23 08:45:36 2012] [debug] Nothing has been rendered, assuming delayed response.
+[Mon Jul 23 08:57:03 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 08:57:10 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 08:57:10 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:57:10 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 08:57:10 2012] [debug] 302 Found (0.003632s, 275.330/s).
+[Mon Jul 23 08:57:10 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 08:57:10 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 08:57:10 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 08:57:10 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 08:57:10 2012] [debug] 200 OK (0.041267s, 24.232/s).
+[Mon Jul 23 09:00:37 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:00:49 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:00:49 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:00:49 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:00:49 2012] [debug] 302 Found (0.009680s, 103.306/s).
+[Mon Jul 23 09:00:49 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:00:49 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:00:49 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:00:49 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:00:49 2012] [debug] 200 OK (0.074161s, 13.484/s).
+[Mon Jul 23 09:01:33 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:01:47 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:01:47 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:01:47 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:01:47 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:01:47 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:01:47 2012] [debug] 200 OK (0.053159s, 18.811/s).
+[Mon Jul 23 09:02:13 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:02:18 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:02:18 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:02:18 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 09:02:18 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 09:02:18 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:02:18 2012] [debug] 200 OK (0.057340s, 17.440/s).
+[Mon Jul 23 09:02:58 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:03:05 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:03:05 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:03:05 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 09:03:05 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 09:03:05 2012] [debug] Rendering inline template.
+[Mon Jul 23 09:03:05 2012] [debug] 404 Not Found (0.022328s, 44.787/s).
+[Mon Jul 23 09:03:11 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:03:11 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:03:11 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:03:11 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:03:11 2012] [debug] 200 OK (0.044349s, 22.548/s).
+[Mon Jul 23 09:03:18 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:03:18 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:03:18 2012] [debug] 302 Found (0.002838s, 352.361/s).
+[Mon Jul 23 09:03:18 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:03:18 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 09:03:18 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 09:03:18 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:03:18 2012] [debug] 200 OK (0.015182s, 65.867/s).
+[Mon Jul 23 09:03:25 2012] [debug] GET /xxx (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:03:25 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:03:25 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:03:25 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:03:25 2012] [debug] 200 OK (0.012276s, 81.460/s).
+[Mon Jul 23 09:04:34 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:04:39 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:04:40 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:04:40 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 09:04:40 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 09:04:40 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:04:40 2012] [debug] 200 OK (0.047853s, 20.897/s).
+[Mon Jul 23 09:04:44 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:04:44 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:04:44 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:04:44 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:04:44 2012] [debug] 200 OK (0.019916s, 50.211/s).
+[Mon Jul 23 09:04:50 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:04:50 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:04:50 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:04:50 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:04:50 2012] [debug] 200 OK (0.011185s, 89.405/s).
+[Mon Jul 23 09:18:31 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:18:31 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 09:18:31 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 09:18:31 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:18:31 2012] [debug] 200 OK (0.017022s, 58.748/s).
+[Mon Jul 23 09:18:40 2012] [debug] GET /welcome/exit (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:18:40 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:18:40 2012] [debug] 200 OK (0.002100s, 476.190/s).
+[Mon Jul 23 09:24:13 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:24:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:24:52 2012] [debug] GET /welcome/exit (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:24:52 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 09:24:52 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 09:24:52 2012] [debug] Rendering inline template.
+[Mon Jul 23 09:24:52 2012] [debug] 404 Not Found (0.024478s, 40.853/s).
+[Mon Jul 23 09:24:59 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:24:59 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 09:24:59 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 09:24:59 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:24:59 2012] [debug] 200 OK (0.048402s, 20.660/s).
+[Mon Jul 23 09:25:04 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:25:04 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 09:25:04 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 09:25:04 2012] [debug] 404 Not Found (0.007250s, 137.931/s).
+[Mon Jul 23 09:25:10 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:25:10 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:25:10 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:25:10 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:25:10 2012] [debug] 200 OK (0.014021s, 71.322/s).
+[Mon Jul 23 09:25:17 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:25:17 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:25:17 2012] [debug] 302 Found (0.002392s, 418.060/s).
+[Mon Jul 23 09:25:17 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:25:17 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 09:25:17 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 09:25:17 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:25:17 2012] [debug] 200 OK (0.013952s, 71.674/s).
+[Mon Jul 23 09:34:51 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:35:00 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:35:00 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:35:00 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 09:35:00 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 09:35:00 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:35:00 2012] [debug] 200 OK (0.231226s, 4.325/s).
+[Mon Jul 23 09:35:05 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:35:05 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:35:05 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:35:05 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:35:05 2012] [debug] 200 OK (0.016374s, 61.072/s).
+[Mon Jul 23 09:35:12 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:35:12 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:35:12 2012] [debug] 302 Found (0.002850s, 350.877/s).
+[Mon Jul 23 09:35:12 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:35:12 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 09:35:12 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 09:35:12 2012] [debug] Rendering inline template.
+[Mon Jul 23 09:35:12 2012] [debug] 404 Not Found (0.027342s, 36.574/s).
+[Mon Jul 23 09:35:53 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:36:02 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:36:02 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:36:02 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 09:36:02 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 09:36:02 2012] [debug] Rendering inline template.
+[Mon Jul 23 09:36:02 2012] [debug] 404 Not Found (0.029250s, 34.188/s).
+[Mon Jul 23 09:36:07 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:36:07 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:36:07 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:36:07 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:36:08 2012] [debug] 200 OK (0.036411s, 27.464/s).
+[Mon Jul 23 09:36:14 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:36:14 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:36:14 2012] [debug] 302 Found (0.002198s, 454.959/s).
+[Mon Jul 23 09:36:14 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:36:14 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 09:36:14 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 09:36:14 2012] [debug] 404 Not Found (0.006867s, 145.624/s).
+[Mon Jul 23 09:36:48 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:37:02 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:37:02 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:37:02 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:37:02 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:37:02 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:37:02 2012] [debug] 200 OK (0.052843s, 18.924/s).
+[Mon Jul 23 09:37:07 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:37:07 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:37:07 2012] [debug] 302 Found (0.002386s, 419.111/s).
+[Mon Jul 23 09:37:07 2012] [debug] GET /home/slug (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:37:07 2012] [debug] Dispatching callback.
+[Mon Jul 23 09:37:07 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 09:37:08 2012] [error] Global symbol "$first" requires explicit package name at template "example/home.html.ep" line 4, near "".
+1: % layout 'default';
+2: % title 'home';
+3: 
+4: <%= $first %> says:<BR>
+5: 
+6: lets all go to the brain slug planet!
+
+[Mon Jul 23 09:37:08 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul 23 09:37:08 2012] [debug] Template "exception.html.ep" not found.
+[Mon Jul 23 09:37:08 2012] [debug] Rendering inline template.
+[Mon Jul 23 09:37:08 2012] [debug] 500 Internal Server Error (0.218124s, 4.585/s).
+[Mon Jul 23 09:39:13 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:39:24 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:39:24 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:39:24 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:39:24 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:39:24 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:39:24 2012] [debug] 200 OK (0.053972s, 18.528/s).
+[Mon Jul 23 09:39:29 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:39:29 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:39:29 2012] [debug] 302 Found (0.002639s, 378.931/s).
+[Mon Jul 23 09:39:29 2012] [debug] GET /home/home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:39:29 2012] [debug] Dispatching callback.
+[Mon Jul 23 09:39:29 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 09:39:29 2012] [error] Global symbol "$first" requires explicit package name at template "example/home.html.ep" line 4, near "".
+1: % layout 'default';
+2: % title 'home';
+3: 
+4: <%= $first %> says:<BR>
+5: 
+6: lets all go to the brain slug planet!
+
+[Mon Jul 23 09:39:29 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul 23 09:39:29 2012] [debug] Template "exception.html.ep" not found.
+[Mon Jul 23 09:39:29 2012] [debug] Rendering inline template.
+[Mon Jul 23 09:39:29 2012] [debug] 500 Internal Server Error (0.155191s, 6.444/s).
+[Mon Jul 23 09:41:22 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:42:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:42:52 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:42:52 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 09:42:52 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 09:42:52 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:42:52 2012] [debug] 200 OK (0.053059s, 18.847/s).
+[Mon Jul 23 09:42:59 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:42:59 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:42:59 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:42:59 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:42:59 2012] [debug] 200 OK (0.013473s, 74.223/s).
+[Mon Jul 23 09:43:04 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:43:04 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:43:04 2012] [debug] 302 Found (0.002152s, 464.684/s).
+[Mon Jul 23 09:43:04 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:43:04 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 09:43:04 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 09:43:04 2012] [debug] Rendering inline template.
+[Mon Jul 23 09:43:04 2012] [debug] 404 Not Found (0.022772s, 43.914/s).
+[Mon Jul 23 09:44:50 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 09:45:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 09:45:01 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:45:01 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 09:45:01 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 09:45:01 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 09:45:01 2012] [debug] 200 OK (0.049782s, 20.088/s).
+[Mon Jul 23 09:45:05 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:45:05 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 09:45:05 2012] [debug] 302 Found (0.002551s, 392.003/s).
+[Mon Jul 23 09:45:05 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 09:45:05 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 09:45:05 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 09:45:05 2012] [debug] Rendering inline template.
+[Mon Jul 23 09:45:05 2012] [debug] 404 Not Found (0.020118s, 49.707/s).
+[Mon Jul 23 11:16:28 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 11:16:39 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 11:16:39 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:16:39 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 11:16:39 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 11:16:39 2012] [debug] Rendering inline template.
+[Mon Jul 23 11:16:39 2012] [debug] 404 Not Found (0.041161s, 24.295/s).
+[Mon Jul 23 11:16:45 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:16:45 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 11:16:45 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 11:16:45 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 11:16:45 2012] [debug] 200 OK (0.180624s, 5.536/s).
+[Mon Jul 23 11:16:53 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:16:53 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 11:16:53 2012] [debug] 302 Found (0.003890s, 257.069/s).
+[Mon Jul 23 11:16:53 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:16:53 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 11:16:53 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 11:16:53 2012] [debug] Rendering inline template.
+[Mon Jul 23 11:16:53 2012] [debug] 404 Not Found (0.015188s, 65.841/s).
+[Mon Jul 23 11:17:31 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 11:17:40 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 11:17:40 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:17:40 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 11:17:40 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 11:17:40 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 11:17:40 2012] [debug] 200 OK (0.076925s, 13.000/s).
+[Mon Jul 23 11:17:46 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:17:46 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 11:17:46 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 11:17:46 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 11:17:46 2012] [debug] 200 OK (0.018416s, 54.301/s).
+[Mon Jul 23 11:17:51 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:17:51 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 11:17:51 2012] [debug] 302 Found (0.003023s, 330.797/s).
+[Mon Jul 23 11:17:51 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:17:51 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 11:17:51 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 11:17:51 2012] [debug] Rendering inline template.
+[Mon Jul 23 11:17:51 2012] [debug] 404 Not Found (0.018593s, 53.784/s).
+[Mon Jul 23 11:20:59 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 11:21:09 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 11:21:09 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:21:09 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 11:21:09 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 11:21:09 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 11:21:09 2012] [debug] 200 OK (0.069941s, 14.298/s).
+[Mon Jul 23 11:21:13 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:21:13 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 11:21:13 2012] [debug] 302 Found (0.002668s, 374.813/s).
+[Mon Jul 23 11:21:13 2012] [debug] GET /home/home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 11:21:13 2012] [debug] Dispatching callback.
+[Mon Jul 23 11:21:13 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 11:21:13 2012] [error] Global symbol "$first" requires explicit package name at template "example/home.html.ep" line 4, near "".
+1: % layout 'default';
+2: % title 'home';
+3: 
+4: <%= $first %> says:<BR>
+5: 
+6: lets all go to the brain slug planet!
+
+[Mon Jul 23 11:21:13 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul 23 11:21:13 2012] [debug] Template "exception.html.ep" not found.
+[Mon Jul 23 11:21:13 2012] [debug] Rendering inline template.
+[Mon Jul 23 11:21:13 2012] [debug] 500 Internal Server Error (0.204189s, 4.897/s).
+[Mon Jul 23 12:21:36 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 12:21:43 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 12:21:43 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:21:43 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 12:21:43 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 12:21:43 2012] [debug] Rendering inline template.
+[Mon Jul 23 12:21:43 2012] [debug] 404 Not Found (0.209167s, 4.781/s).
+[Mon Jul 23 12:21:55 2012] [debug] GET /ff (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:21:55 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 12:21:55 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 12:21:56 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 12:21:56 2012] [debug] 200 OK (1.064982s, 0.939/s).
+[Mon Jul 23 12:22:12 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:22:12 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 12:22:12 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 12:22:12 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 12:22:12 2012] [debug] 200 OK (0.014078s, 71.033/s).
+[Mon Jul 23 12:22:21 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:22:21 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 12:22:21 2012] [debug] 302 Found (0.003960s, 252.525/s).
+[Mon Jul 23 12:22:21 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:22:21 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 12:22:21 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 12:22:21 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 12:22:21 2012] [debug] 200 OK (0.018963s, 52.734/s).
+[Mon Jul 23 12:56:04 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:56:04 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 12:56:04 2012] [debug] 302 Found (0.002066s, 484.027/s).
+[Mon Jul 23 12:56:04 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:56:04 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 12:56:04 2012] [debug] 200 OK (0.002324s, 430.293/s).
+[Mon Jul 23 12:56:16 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:56:16 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 12:56:16 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 12:56:16 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 12:56:16 2012] [debug] 200 OK (0.014369s, 69.594/s).
+[Mon Jul 23 12:56:21 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:56:21 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 12:56:21 2012] [debug] 200 OK (0.002324s, 430.293/s).
+[Mon Jul 23 12:56:28 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:56:28 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 12:56:28 2012] [debug] 302 Found (0.002315s, 431.965/s).
+[Mon Jul 23 12:56:28 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 12:56:28 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 12:56:28 2012] [debug] 200 OK (0.002161s, 462.749/s).
+[Mon Jul 23 13:57:58 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 13:58:12 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 13:58:12 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 13:58:12 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 13:58:12 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 13:58:13 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 13:58:13 2012] [debug] 200 OK (1.026626s, 0.974/s).
+[Mon Jul 23 13:58:17 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 13:58:17 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 13:58:17 2012] [debug] 302 Found (0.009827s, 101.760/s).
+[Mon Jul 23 13:58:17 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 13:58:17 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 13:58:17 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 13:58:17 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 13:58:17 2012] [debug] 200 OK (0.013329s, 75.024/s).
+[Mon Jul 23 13:58:22 2012] [debug] GET /xxxx (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 13:58:22 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 13:58:22 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 13:58:22 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 13:58:22 2012] [debug] 200 OK (0.010969s, 91.166/s).
+[Mon Jul 23 14:09:38 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:09:46 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:09:46 2012] [debug] GET /xxxx (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:09:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:09:46 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:09:46 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:09:46 2012] [debug] 404 Not Found (0.034862s, 28.685/s).
+[Mon Jul 23 14:09:55 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:09:55 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:09:55 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:09:55 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:09:55 2012] [debug] 200 OK (0.058907s, 16.976/s).
+[Mon Jul 23 14:10:00 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:10:00 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 14:10:00 2012] [debug] 302 Found (0.022069s, 45.312/s).
+[Mon Jul 23 14:10:00 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:10:00 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:10:00 2012] [debug] Action "AA::Authn->check" not found, assuming template without action.
+[Mon Jul 23 14:10:00 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:10:00 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:10:00 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:10:00 2012] [debug] 404 Not Found (0.018618s, 53.711/s).
+[Mon Jul 23 14:12:32 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:12:46 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:12:46 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:12:46 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:12:46 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:12:46 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:12:46 2012] [debug] 200 OK (0.065511s, 15.265/s).
+[Mon Jul 23 14:12:58 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:12:58 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 14:12:58 2012] [debug] 302 Found (0.002345s, 426.439/s).
+[Mon Jul 23 14:12:58 2012] [debug] GET / (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:12:58 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:12:58 2012] [debug] Action "AA::Authn->check" not found, assuming template without action.
+[Mon Jul 23 14:12:58 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:12:58 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:12:58 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:12:58 2012] [debug] 404 Not Found (0.023916s, 41.813/s).
+[Mon Jul 23 14:13:39 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:13:52 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:13:52 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:13:52 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:13:52 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:13:52 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:13:52 2012] [debug] 200 OK (0.067091s, 14.905/s).
+[Mon Jul 23 14:13:58 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:13:58 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 14:13:58 2012] [debug] 302 Found (0.002241s, 446.229/s).
+[Mon Jul 23 14:13:58 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:13:58 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:13:58 2012] [debug] Action "AA::Authn->check" not found, assuming template without action.
+[Mon Jul 23 14:13:58 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:13:58 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:13:58 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:13:58 2012] [debug] 404 Not Found (0.016881s, 59.238/s).
+[Mon Jul 23 14:18:50 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:19:08 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:19:08 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:19:08 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:19:08 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:19:08 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:19:08 2012] [debug] 200 OK (0.057042s, 17.531/s).
+[Mon Jul 23 14:19:15 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:19:15 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 14:19:15 2012] [debug] 302 Found (0.002582s, 387.297/s).
+[Mon Jul 23 14:19:15 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:19:15 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:19:15 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 14:19:15 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 14:19:15 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:19:15 2012] [debug] 200 OK (0.021134s, 47.317/s).
+[Mon Jul 23 14:19:22 2012] [debug] GET /ssss (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:19:22 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:19:22 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:19:22 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:19:22 2012] [debug] 404 Not Found (0.022277s, 44.889/s).
+[Mon Jul 23 14:22:05 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:22:12 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:22:12 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:22:12 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:22:12 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:22:12 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:22:12 2012] [debug] 200 OK (0.058836s, 16.996/s).
+[Mon Jul 23 14:22:17 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:22:17 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 14:22:17 2012] [debug] 302 Found (0.014003s, 71.413/s).
+[Mon Jul 23 14:22:17 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:22:17 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:22:17 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 14:22:17 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 14:22:17 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:22:17 2012] [debug] 200 OK (0.016862s, 59.305/s).
+[Mon Jul 23 14:22:22 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:22:22 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:22:22 2012] [debug] Dispatching "AA::Example->slug".
+[Mon Jul 23 14:22:22 2012] [debug] Action "AA::Example->slug" not found, assuming template without action.
+[Mon Jul 23 14:22:22 2012] [debug] Rendering template "example/slug.html.ep".
+[Mon Jul 23 14:22:22 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:22:22 2012] [debug] 200 OK (0.010585s, 94.473/s).
+[Mon Jul 23 14:22:32 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:22:32 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 14:22:32 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 14:22:32 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:22:32 2012] [debug] 200 OK (0.017804s, 56.167/s).
+[Mon Jul 23 14:22:36 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:22:36 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:22:36 2012] [debug] 302 Found (0.001329s, 752.445/s).
+[Mon Jul 23 14:22:36 2012] [debug] GET /authn_form (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:22:36 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:22:36 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:22:36 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:22:36 2012] [debug] 404 Not Found (0.014915s, 67.047/s).
+[Mon Jul 23 14:23:46 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:23:46 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:23:46 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:23:46 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:23:46 2012] [debug] 200 OK (0.011827s, 84.552/s).
+[Mon Jul 23 14:23:53 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:23:53 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:23:53 2012] [debug] 302 Found (0.001309s, 763.942/s).
+[Mon Jul 23 14:23:53 2012] [debug] GET /authn_form (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:23:53 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:23:53 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:23:53 2012] [debug] 404 Not Found (0.007655s, 130.634/s).
+[Mon Jul 23 14:24:25 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:24:34 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:24:34 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:24:34 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:24:34 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:24:34 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:24:34 2012] [debug] 200 OK (0.056439s, 17.718/s).
+[Mon Jul 23 14:24:38 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:24:38 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:24:38 2012] [debug] 302 Found (0.001650s, 606.061/s).
+[Mon Jul 23 14:24:38 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:24:38 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:24:38 2012] [debug] 200 OK (0.002094s, 477.555/s).
+[Mon Jul 23 14:24:43 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:24:43 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:24:43 2012] [debug] 302 Found (0.015087s, 66.282/s).
+[Mon Jul 23 14:24:43 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:24:43 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:24:43 2012] [debug] 200 OK (0.001873s, 533.903/s).
+[Mon Jul 23 14:24:47 2012] [debug] GET /dddd (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:24:47 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:24:47 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:24:47 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:24:47 2012] [debug] 404 Not Found (0.015184s, 65.859/s).
+[Mon Jul 23 14:24:55 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:24:55 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:24:55 2012] [debug] 200 OK (0.004827s, 207.168/s).
+[Mon Jul 23 14:25:01 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:25:01 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 14:25:01 2012] [debug] 302 Found (0.002757s, 362.713/s).
+[Mon Jul 23 14:25:01 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:25:01 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:25:01 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 14:25:01 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 14:25:01 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:25:01 2012] [debug] 200 OK (0.024006s, 41.656/s).
+[Mon Jul 23 14:25:04 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:25:04 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:25:04 2012] [debug] Dispatching "AA::Example->slug".
+[Mon Jul 23 14:25:04 2012] [debug] Action "AA::Example->slug" not found, assuming template without action.
+[Mon Jul 23 14:25:04 2012] [debug] Rendering template "example/slug.html.ep".
+[Mon Jul 23 14:25:04 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:25:04 2012] [debug] 200 OK (0.010798s, 92.610/s).
+[Mon Jul 23 14:37:22 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:37:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:37:32 2012] [debug] GET /welcome (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:37:32 2012] [debug] Dispatching "AA::Example->welcome".
+[Mon Jul 23 14:37:32 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Jul 23 14:37:33 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:37:33 2012] [debug] 200 OK (0.178543s, 5.601/s).
+[Mon Jul 23 14:37:38 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:37:38 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:37:38 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:37:38 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:37:38 2012] [debug] 200 OK (0.026049s, 38.389/s).
+[Mon Jul 23 14:37:52 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:37:52 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 14:37:52 2012] [debug] 302 Found (0.052598s, 19.012/s).
+[Mon Jul 23 14:37:52 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:37:52 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:37:52 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 14:37:52 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 14:37:52 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:37:52 2012] [debug] 200 OK (0.010515s, 95.102/s).
+[Mon Jul 23 14:37:55 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:37:55 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:37:55 2012] [debug] Dispatching "AA::Example->slug".
+[Mon Jul 23 14:37:55 2012] [debug] Action "AA::Example->slug" not found, assuming template without action.
+[Mon Jul 23 14:37:55 2012] [debug] Rendering template "example/slug.html.ep".
+[Mon Jul 23 14:37:55 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:37:55 2012] [debug] 200 OK (0.011152s, 89.670/s).
+[Mon Jul 23 14:37:57 2012] [debug] GET /logout (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:37:57 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:37:57 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:37:57 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:37:57 2012] [debug] 404 Not Found (0.026475s, 37.771/s).
+[Mon Jul 23 14:38:40 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:38:49 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:38:49 2012] [debug] GET /logout (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:38:49 2012] [debug] Template "not_found.development.html.ep" not found.
+[Mon Jul 23 14:38:49 2012] [debug] Template "not_found.html.ep" not found.
+[Mon Jul 23 14:38:49 2012] [debug] Rendering inline template.
+[Mon Jul 23 14:38:49 2012] [debug] 404 Not Found (0.024450s, 40.900/s).
+[Mon Jul 23 14:39:57 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 14:40:07 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 14:40:07 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:40:07 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:40:07 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 14:40:07 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 14:40:07 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:40:07 2012] [debug] 200 OK (0.086417s, 11.572/s).
+[Mon Jul 23 14:40:09 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:40:09 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:40:09 2012] [debug] Dispatching "AA::Example->slug".
+[Mon Jul 23 14:40:09 2012] [debug] Action "AA::Example->slug" not found, assuming template without action.
+[Mon Jul 23 14:40:09 2012] [debug] Rendering template "example/slug.html.ep".
+[Mon Jul 23 14:40:09 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:40:09 2012] [debug] 200 OK (0.011269s, 88.739/s).
+[Mon Jul 23 14:40:12 2012] [debug] GET /logout (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:40:12 2012] [debug] Dispatching "AA::Authn->delete".
+[Mon Jul 23 14:40:12 2012] [debug] 302 Found (0.001506s, 664.011/s).
+[Mon Jul 23 14:40:12 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:40:12 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:40:12 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 14:40:12 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 14:40:12 2012] [debug] 200 OK (0.010537s, 94.904/s).
+[Mon Jul 23 14:40:16 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:40:16 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 14:40:16 2012] [debug] 302 Found (0.001405s, 711.744/s).
+[Mon Jul 23 14:40:16 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 14:40:16 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 14:40:16 2012] [debug] 200 OK (0.002126s, 470.367/s).
+[Mon Jul 23 20:07:33 2012] [info] Server listening (http://*:3000)
+[Mon Jul 23 20:07:44 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 20:07:44 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:07:44 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 20:07:44 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 20:07:44 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 20:07:44 2012] [debug] 200 OK (0.051144s, 19.553/s).
+[Mon Jul 23 20:07:49 2012] [debug] POST /login (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:07:49 2012] [debug] Dispatching "AA::Authn->login".
+[Mon Jul 23 20:07:49 2012] [debug] 302 Found (0.002733s, 365.898/s).
+[Mon Jul 23 20:07:49 2012] [debug] GET /home (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:07:49 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 20:07:49 2012] [debug] Dispatching "AA::Example->home".
+[Mon Jul 23 20:07:49 2012] [debug] Rendering template "example/home.html.ep".
+[Mon Jul 23 20:07:49 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 20:07:49 2012] [debug] 200 OK (0.017895s, 55.882/s).
+[Mon Jul 23 20:07:51 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:07:51 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 20:07:51 2012] [debug] Dispatching "AA::Example->slug".
+[Mon Jul 23 20:07:51 2012] [debug] Action "AA::Example->slug" not found, assuming template without action.
+[Mon Jul 23 20:07:51 2012] [debug] Rendering template "example/slug.html.ep".
+[Mon Jul 23 20:07:51 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 20:07:52 2012] [debug] 200 OK (0.019114s, 52.318/s).
+[Mon Jul 23 20:08:41 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 20:08:41 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:08:41 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 20:08:41 2012] [debug] Dispatching "AA::Example->slug".
+[Mon Jul 23 20:08:41 2012] [debug] Action "AA::Example->slug" not found, assuming template without action.
+[Mon Jul 23 20:08:41 2012] [debug] Rendering template "example/slug.html.ep".
+[Mon Jul 23 20:08:42 2012] [error] Global symbol "$test" requires explicit package name at template "example/slug.html.ep" line 7, near "<BR>Click <a href="/logout" >here</A> to log out!".
+2: % title 'Slug';
+3: 
+4: My Slug<BR>
+5: 
+6: Make all slugs go to the brain slug planet!
+7: <%= $test%>
+8: <BR>Click <a href="/logout" >here</A> to log out!
+
+[Mon Jul 23 20:08:42 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul 23 20:08:42 2012] [debug] Template "exception.html.ep" not found.
+[Mon Jul 23 20:08:42 2012] [debug] Rendering inline template.
+[Mon Jul 23 20:08:42 2012] [debug] 500 Internal Server Error (0.256237s, 3.903/s).
+[Mon Jul 23 20:13:35 2012] [debug] GET /logout (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:13:35 2012] [debug] Dispatching "AA::Authn->delete".
+[Mon Jul 23 20:13:35 2012] [debug] 302 Found (0.003100s, 322.581/s).
+[Mon Jul 23 20:13:35 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:13:35 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 20:13:35 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 20:13:35 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Jul 23 20:13:35 2012] [debug] 200 OK (0.018729s, 53.393/s).
+[Mon Jul 23 20:13:42 2012] [debug] GET /slug (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:13:42 2012] [debug] Dispatching "AA::Authn->check".
+[Mon Jul 23 20:13:42 2012] [debug] 302 Found (0.001738s, 575.374/s).
+[Mon Jul 23 20:13:42 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:13:42 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 20:13:42 2012] [debug] 200 OK (0.001753s, 570.451/s).
+[Mon Jul 23 20:14:24 2012] [debug] Your secret passphrase needs to be changed!!!
+[Mon Jul 23 20:14:24 2012] [debug] GET /login (Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1).
+[Mon Jul 23 20:14:24 2012] [debug] Dispatching "AA::Authn->form".
+[Mon Jul 23 20:14:24 2012] [debug] Rendering template "authn/form.html.ep".
+[Mon Jul 23 20:14:24 2012] [error] Global symbol "$tee" requires explicit package name at template "authn/form.html.ep" line 11, near "<input type="submit" name="mysubmit" value="Click!" />".
+6: <form action="/login" method="post">
+7: <table>
+8: <tr> <td> User </td> <td> <input type="text" name="id" /> </td> </tr>
+9: <tr> <td> Password </td> <td> <input type="password" name="pw" /> <input type="hidden" name="slug" value="yes"></td> </tr>
+10: </table>
+11: <%=$tee%>
+12: <input type="submit" name="mysubmit" value="Click!" />
+13: 
+14: </form>
+
+[Mon Jul 23 20:14:24 2012] [debug] Template "exception.development.html.ep" not found.
+[Mon Jul 23 20:14:24 2012] [debug] Template "exception.html.ep" not found.
+[Mon Jul 23 20:14:24 2012] [debug] Rendering inline template.
+[Mon Jul 23 20:14:24 2012] [debug] 500 Internal Server Error (0.203838s, 4.906/s).

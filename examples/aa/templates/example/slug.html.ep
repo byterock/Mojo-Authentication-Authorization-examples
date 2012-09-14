@@ -1,0 +1,15 @@
+% layout 'default';
+% title 'Slug';
+
+My Slug<BR>
+
+Make all slugs go to the brain slug planet!
+
+% my $user =  $self->current_user();
+<BR>
+
+My Host is <%= $user->{last} %>,<%= $user->{first} %>
+
+
+<BR>Click <a href="/logout" >here</A> to log out!
+

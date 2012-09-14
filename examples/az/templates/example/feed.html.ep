@@ -1,0 +1,12 @@
+% layout 'default';
+% title 'Feed';
+
+<BR>
+
+
+% for(my $count=0;$count<$slurp_count+1;$count++) { 
+  Slurp<BR>
+% } 
+
+<BR>Click <a href="/logout" >here</A> to log out!
+

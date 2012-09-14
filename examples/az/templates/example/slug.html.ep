@@ -1,0 +1,21 @@
+% layout 'default';
+% title 'Slug';
+
+ 
+ % if ($self->is("king")) {
+     Click <a href="/control" >here</A> to control all slugs!
+  <BR>
+ %}
+  
+My Slug<BR>
+
+Make all hostes go to the brain slug planet!
+
+<BR>
+
+Click <a href="/logout" >here</A> to log out!
+
+ % if ($self->has_priv("feed")) {
+     Click <a href="/feed/all" >here</A> to feed on host!
+  <BR>
+ %}

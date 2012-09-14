@@ -1,0 +1,11 @@
+% layout 'default';
+% title 'home';
+
+<%= $first %> says:<BR>
+
+lets all go to the brain slug planet!
+
+
+<BR>Click <a href="/slug" >here</A> to go to my slug!
+
+
